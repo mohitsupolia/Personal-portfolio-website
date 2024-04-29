@@ -1,21 +1,32 @@
 .profile-pic {
-  position: relative;
+  /* position: relative;
   max-width:130px;
   max-height:130px;
-  width: auto;
+  width: 100;
   height: auto;
+  overflow: hidden; */
+
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  height: 120px;
   overflow: hidden;
+  border-radius: 50%;
+
   /* display: inline-block; */
   
   
   /* background-size: cover;  */
-  margin: -31px; 
-  margin-left:-7px;
+  margin: -10px; 
+  margin-bottom: auto;
+  margin-top: -20px;
+  /* margin-left:-50px; */
   border: 6px solid rgba(0, 77, 64, 0.4); 
-  border-radius: 50% !important;
+  border-radius: 50%;
 }
 
 .profile-pic img {
+  margin-left:-50px;
   width: 100%;
   height: auto;
 }
@@ -326,7 +337,7 @@ h3 {
 
 #intro.section .container {
   color: white;
-  font-weight: 200;
+  font-weight: 100;
   left: 0;
   position: absolute;
   top: 0;
@@ -692,3 +703,34 @@ small {
     background-position-x: 30%;
   }
 }
+
+
+/* Navbar colors and styles  */
+
+/* Style the navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: whitesmoke;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+/* Navigation links */
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
